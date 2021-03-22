@@ -1,0 +1,40 @@
+body
+{
+	background-color: antiquewhite;
+	/*je demande a css de mettre en blanc la couleur de la page*/
+}
+.DIVISION1
+{
+	padding-left: 50%;
+	/*je dis a css de decaler de 50% vers la droite*/
+	font-size: 12pt;
+	/*je dis a css de mettre la taille de police a 12pt*/
+	color: blue;
+	/*je dis a css de mettre les ecritures en bleu*/
+	text-transform: uppercase;
+	/*je dis a css de mettre en majuscule la police*/
+	font-weight: bold;
+	/*je dis a css a mettre en gras la police*/
+}
+
+.info
+{
+	font-family: calibri;
+	/*je dis a css de changer la police en calibri*/
+}
+
+}
+.mess{
+	padding: 5px 115px;
+	
+	color: white; 
+
+}
+.MF{
+	background-color: skyblue;
+}
+
+input{
+
+	background-color: transparent;
+}

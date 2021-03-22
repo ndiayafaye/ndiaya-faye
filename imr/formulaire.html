@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"href="biets.css">
+<link rel="stylesheet" type="text/css" href="formulaire.css"> 
+</head>
+
+
+<body style="margin:0px;padding:5px">
+<fieldset class="fil">
+<div class="diaporama1"></div>
+
+        <div style="margin:0px;padding:0px" class="content">
+            <article class="col-md-12">
+                <!-- commencele Registration Form -->
+                        <form >
+                            <!-- Form Title -->
+                             <div style="background-color:silver;margin-top:22px" class="form-heading text-center">
+                      
+                                <div class="po7"><h1 class="title-description"> FORMULAIRE D'ACHAT</H1></div> 
+                               
+                            
+                            <div class="tab-content">
+                                <div style="font-size:15px" class="tab-pane fade in active" id="flights">
+
+                                    <div style="width:100%" id="infos"i>
+                                        <div class=";">
+											<div class="ab1">
+                                            <div class="col-md-12">
+                                                <input class="infpass" type="text" name="prenom[4]" placeholder="* Nom" required="">
+                                            </div></br>
+                                            <div class="col-md-12">
+
+                                                <input class="infpass"  type="text" name="nom[]" placeholder="* Prenom" required="">
+                                            </div>
+											</div>
+                                        </div>
+                                    </div>
+              
+									
+                               
+							
+                                    <div id="vol">
+                                    <div class="row">
+									<div>
+									<div>
+                                        <div class="col-md-6"></br>
+                                           
+                                    <!-- for spacing height -->
+                                        </div></br>
+                                        <div class="col-md-6">
+                                            <input name="desti[]" type="text"style="margin-left:30%" class="typeahead" placeholder="*ville actuelle">
+                                            <div class="lineheight"></div><!-- for spacing height -->
+                                        </div>
+                                    </div></br>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div id="retouoof"></br>
+                                            <label class="floating-label"style="margin-left:30%" ><i class="fa fa-calendar"></i></label>
+                                            <input id="de2" style="margin-left:0%" class="datepicker" name="retoure[]" type="datepicker" placeholder="*adress ">
+                                            </div>
+											
+                                        </div></br>
+                                    </div>
+                                    </div> 
+                                    <div class="row">
+                                        <div class="po4"></br>
+                                            <label class="po1"><i class="fa fa-phone"></i></label>
+                                            </p><input style="padding-left: 20px;" type="email" id="tel" name="tel" placeholder="Email"></p>
+                                        </div>
+                                        <div class="po"></br>
+                                            <label class="floating-label"><i class="fa fa-mail-forward"></i></label>
+                                            <input style="padding-left: 20px;" type="text" name="mailo" placeholder="mot de pass">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="po2">
+                                        <div class="col-md-12">
+                                            <label class="floating-label"><i class="fa fa-phone"></i></label>
+                                            <p><input style="padding-left:3%;" type="text"id="stel"name="stel"placeholder="* T�l�phone portable"></p>
+                                        </div>
+                                       
+                                    </div>
+                                    <div style="display:block" class="row">
+                                        <div class="col-md-12">
+                                            <label style="margin-left:30%">*pays</label>
+                                            <select name="nbpassager" id="nbpassager" class="form-control"style="margin-left:0%"type="datepicker"placeholder>
+
+                                              <P>  <option value="1 Adulte" selected="selected">Senegal</option>
+                                                <option value="1 Enfant">Comores </option>
+                                                <option value="1 Adulte et 1 Enfant">congo</option>
+                                                <option value="1 Adulte et 1 Bebe">Guine </option>
+                                                <option value="1 Adulte, 1 Enfant et 1 Bebe">Maroc </option>
+                                                <option value="2 Adultes">France</option>
+                                                <option value="2 Adultes, 1 Enfant">Madagascar</option>
+                                                <option value="2 Adultes, 2 Enfants">Togo </option>
+                                                <option value="2 Adultes, et 1 Bebe">Brezil</option>
+                                                <option value="2 Adultes, et 2 Bebes">Mali </option>
+                                                <option value="2 Adultes, 2 Enfants et 1 Bebe">Code-ivoir</option>
+                                                <option value="2 Adultes, 2 Enfants et 2 Bebes">Cameroun </option></p>
+
+
+                                            </select>
+                                        
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                        </div>
+                                    </div>
+
+										
+										<div class="ab2">
+                                        <div class="top:20px">
+                                            <label style="margin:141px">Message </label><br>
+                                            <textarea style="font-size:15px;color:rgb(0, 0, 0);width:70%;height:150px;margin-left:10%;" name="message"></textarea> </div>
+
+                                    </div>
+									</div>
+                                    <div class="row">
+                                        <div class="kk">
+                                            <button onclick="return check()" class="adam-button adam-blue">Envoyer</button>
+											<button onclick="return check()" class="adam-button adam-blue">Anuler</button>
+                                        </div>
+                                    </div>
+                                </div>
+                             
+                            </div>
+                        </form>
+            </article>
+            
+        </div>
+   
+	
+   </fieldset>
+</body>
+</html>

@@ -1,0 +1,227 @@
+
+
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.conteneur-nav{
+    position: absolute;
+    width: 100%;
+}
+nav input[type=checkbox]{
+    display: none;
+}
+nav label{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: gold;
+}
+nav ul{
+    display: none;
+    list-style-type: none;
+    background-color: #555;
+}
+nav input[type=checkbox]:checked + ul{
+    display: flex;
+    flex-flow : column wrap;
+}
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+}
+nav > div > ul > li > a{
+    color: white;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+}
+.sous{
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 1000;
+}
+
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    background-color: RGBa(200,200,200,0.8);
+}
+
+@media screen and (min-width: 980px){
+    .conteneur-nav{
+        position: static;
+    }
+    nav label, nav input{
+        display: none;
+    }
+    nav input[type=checkbox]:checked + ul, nav ul{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: white;
+    }
+    nav ul li{
+        position: relative;
+    }
+    nav > div > ul > li > a{
+        color: black;
+    }
+    nav a{
+        border-bottom: 2px solid transparent;
+    }
+    nav a:hover{
+        color: orange;
+        border-bottom: 2px solid gold;
+    }
+    .sous{
+        display: none;
+        box-shadow: 0px 1px 2px #CCC;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+    }
+    nav > div > ul li:hover .sous{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sous a{
+        border-bottom: none;
+        background-color: white;
+    }
+    .sous a:hover{
+        border-bottom: none;
+        background-color: RGBa(200,200,200,0.1);
+    }
+    .deroulant > a::after{
+        content:" ▼";
+        font-size: 12px;
+    }
+/**.conteneur-contenu{
+  margin: 50px 20px;
+  height: 1500px;
+}*/
+
+section{
+	width:100%;
+	height:500px;
+	background-image:url(nous1.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;}
+    
+
+    
+header{
+	width:100%;
+    height:99px;
+    background-color:#5ce1e6;
+	display:block;
+	margin:auto;
+    color:black;}   
+
+
+    /* c'est le dut du designe*/
+    .bbc{width: 427px;
+        height: 546;
+    }
+    *{
+        font-family: Avenir, sans-serif;
+      }
+      fieldset{
+        background-color: RGBa(240, 160, 0, 0.2);
+      }
+      legend{
+        font-weight: bold;
+      }
+      .champ{
+        margin-bottom: 10px;
+      }
+      textarea{
+        width: 40%;
+        height: 100px;
+      }
+      input{
+        width: 150px;
+      }
+      input[type="radio"], input[type="checkbox"]{
+        width: auto;
+      }
+      input[type="submit"]{
+        width: 100px;
+      }
+      /* tableau*/
+
+
+
+table{
+    caption-side: bottom;
+    
+  }
+  th, td{
+    border: 0px solid rgb(255, 255, 255);
+    padding: 10px;
+  }
+  caption{
+    background-color: #0AD;
+    font-weight: bold;
+  }
+  
+  footer
+  
+  body{
+      margin: 0px;
+      padding: 0px;
+      width: 100px;
+  }
+
+.d1{
+    width: 80%;
+    height: 275px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 9s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+@keyframes fondu{
+    10%{background-image: url("promo1.jpg");background-repeat: no-repeat;}
+    25.33%{background-image: url("promo4.jpg");background-repeat: no-repeat;}
+    64.67%{background-image: url("promo1.jpg");background-repeat: no-repeat;}
+    100%{background-image: url("promo4.jpg");background-repeat: no-repeat;}
+}
+.a{
+    color: #38b6ff;
+    text-decoration: none;
+}
+.b{
+    color: #ee1717;
+    text-decoration: none;
+}  
+}
+.c{
+    color: #fb72d9;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    text-decoration: none;
+}
